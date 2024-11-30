@@ -1,0 +1,16 @@
+.emoji-game {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.emoji-game-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 images per row */
+  gap: 10px; /* No gap between items */
+  padding: 200px; /* Padding around the container */
+
+  min-height: 100vh;
+}

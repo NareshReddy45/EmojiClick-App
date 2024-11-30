@@ -1,0 +1,30 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9796f0;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  padding: 20px 60px;
+}
+
+.nav-logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.nav-link1 {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link2 {
+  font-size: 18px;
+  display: flex;
+}
+
+.nav-link2 p {
+  padding-right: 30px;
+  font-size: 23px;
+  font-weight: bold;
+}
